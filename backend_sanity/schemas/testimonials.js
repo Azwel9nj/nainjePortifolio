@@ -2,7 +2,7 @@ export default {
   name: "testimonials",
   title: "Testimonials",
   type: "document",
-  feilds: [
+  fields: [
     {
       name: "name",
       title: "Name",
@@ -14,8 +14,8 @@ export default {
       type: "string",
     },
     {
-      name: "imageurl",
-      title: "ImgURL",
+      name: "imgurl",
+      title: "ImgUrl",
       type: "image",
       options: {
         hotspot: true,
