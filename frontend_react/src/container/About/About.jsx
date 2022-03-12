@@ -7,6 +7,7 @@ import "./About.scss";
 import { images } from "../../constants";
 import { useEffect, useState } from "react";
 import { urlFor, client } from "../../client";
+import { AppWrap } from "../../wrapper";
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
@@ -49,4 +50,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, "about");
